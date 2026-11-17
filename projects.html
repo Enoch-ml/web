@@ -11,31 +11,56 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header>
-    <a class="name" href="./">Enoch</a>
+    <a class="name" href="./">EML</a>
     <nav aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="projects.html" aria-current="page">Projects</a>
-      <a href="https://github.com/Enoch-ml" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)">GitHub</a>
+      <span class="social-links">
+        <a href="https://www.linkedin.com/in/enochml/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in a new tab)" title="LinkedIn"><img src="assets/icons/linkedin.svg" width="19" height="19" alt=""></a>
+        <a href="https://github.com/Enoch-ml" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in a new tab)" title="GitHub"><img src="assets/icons/github.svg" width="20" height="20" alt=""></a>
+      </span>
     </nav>
   </header>
   <main id="main">
-    <h1>Selected projects</h1>
-    <p class="note">Sample projects below &mdash; replace these with your own work.</p>
+    <h1>Research</h1>
+    <article class="research-project">
+      <a class="project-image" href="assets/images/tissue-specific-network.png" target="_blank" rel="noopener noreferrer" aria-label="View tissue-specific network diagram at full size (opens in a new tab)">
+        <img src="assets/images/tissue-specific-network.png" width="478" height="493" alt="A network of connected nodes overlaid on lungs, illustrating tissue-specific gene interactions.">
+      </a>
+      <div>
+      <h2>Tissue-specific networks heterogeneously predict drug effects</h2>
+      <p>I built a pipeline to process <a href="https://giant-v2.princeton.edu/" target="_blank" rel="noopener noreferrer">GIANT2</a> gene functional networks and study their efficacy for drug effect prediction by the <a href="https://www.pathfxweb.net/" target="_blank" rel="noopener noreferrer">PathFX algorithm</a> with Dr. Jen Wilson.</p>
+      <p class="project-links"><a href="https://example.com/?project=tissue-networks&amp;resource=preprint" target="_blank" rel="noopener noreferrer">Preprint</a> | <a href="https://example.com/?project=tissue-networks&amp;resource=code" target="_blank" rel="noopener noreferrer">Code</a>
+      </div>
+    </article>
+    <article class="research-project">
+      <a class="project-image" href="assets/images/drug-grouped-cross-validation.png" target="_blank" rel="noopener noreferrer" aria-label="View drug-grouped cross-validation diagram at full size (opens in a new tab)">
+        <img src="assets/images/drug-grouped-cross-validation.png" width="604" height="603" alt="Drug-by-gene matrix with drugs A through H assigned to training and drugs I and J held out for testing in drug-grouped cross-validation.">
+      </a>
+      <div>
+      <h2>Drug and gene embeddings aren't very good for transcriptional response prediction</h2>
+      <p>I studied how well drug chemical structure embeddings (ECFP4) and gene function embeddings (GeOKG) can predict transcription on their own with Dr. Aaron Meyer. Turns out, not that well.</p>
+      <p class="project-links"><a href="https://example.com/?project=drug-gene-embeddings&amp;resource=preprint" target="_blank" rel="noopener noreferrer">Preprint</a> | <a href="https://example.com/?project=drug-gene-embeddings&amp;resource=code" target="_blank" rel="noopener noreferrer">Code</a>
+      </div>
+    </article>
+    
+    <br>
 
-    <!-- Copy an article to add another project. Add code and report links inside it. -->
+    <h1>Class projects</h1>
     <article>
-      <h2>Comparing machine learning models</h2>
-      <p>Compare a baseline with a more expressive model on a prediction task. Describe what you built, how you evaluated it, and what you learned from its mistakes.</p>
+      <h2>Coming soon...</h2>
+      <p></p>
     </article>
+
+    <br>
+
+
+    <h1>Miscellaneous</h1>
     <article>
-      <h2>Reproducing a research result</h2>
-      <p>Implement a method from a paper and compare your results with the original findings. Explain your contribution and one detail that proved interesting or difficult.</p>
-    </article>
-    <article>
-      <h2>A useful software tool</h2>
-      <p>Build a small tool for a recurring problem. Explain what it does, a design decision you made, and how someone else could use it.</p>
+      <h2>lang</h2>
+      <p>A language learning tool I built when I was taking Chinese classes at UCLA, but I extended it to Korean and Japanese.</p>
+      <p class="project-links"><a href="https://enoch-ml.github.io/lang/index.html" target="_blank" rel="noopener noreferrer">Link</a> | <a href="https://github.com/Enoch-ml/lang" target="_blank" rel="noopener noreferrer">Code</a>
     </article>
   </main>
-  <footer>Enoch &middot; Personal website</footer>
 </body>
 </html>
