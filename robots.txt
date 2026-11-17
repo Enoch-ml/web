@@ -1,0 +1,7 @@
+# To control https://enoch-ml.github.io/web/, publish this file at:
+# https://enoch-ml.github.io/robots.txt
+# Publishing it only at /web/robots.txt does not activate these rules.
+# These rules request that all compliant crawlers avoid /web/.
+# If the portfolio moves to the domain root, change /web/ to /.
+User-agent: *
+Disallow: /web/
